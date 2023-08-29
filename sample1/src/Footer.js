@@ -8,7 +8,7 @@ const Footer = () => {
     return name[int];
   }
   const handleClick = () => {
-    console.log("You are added as a friend");
+    console.log("You are added as a friend without name.");
   }
   const handleClick2 = (name) => {
     console.log(`You are added as a friend ${name}`);
