@@ -17,7 +17,7 @@ const Footer = () => {
     <div>
     <p>My best friend is {Namechange()}</p>
     <button onClick={() => handleClick2('KRISHNA')}>Add me as a friend</button>
-    <button onClick={handleClick}>Add me as a friend without name</button>
+    <button onClick={handleClick}>Add me as a friend without naming</button>
     </div>
   )
 }
