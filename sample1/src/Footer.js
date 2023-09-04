@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Footer = () => {
 
-  const [name,setName]=useState("K")
+  const [name,setName]=useState("Myself")
     function Namechange()
   {
     const name = ["Aravinth","Neke","Jegan"];
@@ -22,7 +22,7 @@ const Footer = () => {
     console.log(`You are added as a friend ${name}`);
   }
   return (
-    <div>
+    <div style={{backgroundColor:"lightblue"}}>
     <p>My best friend is {name}</p>
     <button onClick={Namechange}>CHANGE</button><br></br>
     <button onClick={() => handleClick2('KRISHNA')}>Add me as a friend</button>
