@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { FaBeer } from "react-icons/fa";
+import { FaTrashRestore } from "react-icons/fa";
 
 const List = () => {
 
@@ -29,7 +29,7 @@ const List = () => {
                         checked = {item.checked}
                     />
                     <label>{item.item}</label>
-                    <FaBeer />
+                    <button><FaTrashRestore /></button>
                 </li>
             ))}
         </ul>
