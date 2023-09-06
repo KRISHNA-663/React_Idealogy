@@ -1,1 +1,0 @@
-![Sample](images/sample_output.png)
