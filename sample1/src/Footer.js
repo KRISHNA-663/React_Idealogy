@@ -6,7 +6,7 @@ const Footer = () => {
   const [name,setName]=useState("Myself")
     function Namechange()
   {
-    const name = ["Aravinth","Neke","Jegan"];
+    const name = ["Aravinth","Nekelash","Jegan"];
     const int =Math.floor(Math.random()*3);
     setName(name[int]);
   }
